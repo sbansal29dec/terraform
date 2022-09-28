@@ -27,7 +27,8 @@ resource "aws_instance" "myec2" {
 ### Commands:
 
 ```sh
-terraform init
-terraform plan
-terraform apply
+terraform init - downloads plugins for the required providers
+terraform plan - provides the plan for the resources to be installed / destroyed.
+terraform apply - apply plan.
+terraform destroy --target - helps delete a targetted resource.
 ```
